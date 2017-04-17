@@ -1,14 +1,7 @@
 import React, {Component} from 'react';
-require('../static/style.css');
+require('./style.css');
 
 class App extends Component {
-
-
-
-
-
-
-
 
 	
   render() {

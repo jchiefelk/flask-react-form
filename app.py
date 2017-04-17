@@ -20,7 +20,7 @@ def home():
 
 @app.route('/login', methods=['POST'])
 def do_admin_login():
-	print request.form
+	print(request.form)
 	if request.form['password'] =='password' and request.form['username']=='admin':
 		session['logged_in'] = True
 	else:

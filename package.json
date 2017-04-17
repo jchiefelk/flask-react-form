@@ -1,0 +1,22 @@
+{
+  "name": "flask-react-project",
+  "version": "0.1.0",
+  "devDependencies": {
+    "react-scripts": "0.8.4"
+  },
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "express": "^4.15.2",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "webpack": "^1.14.0"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "python app.py",
+    "node_start": "node server/app.js"
+  }
+}

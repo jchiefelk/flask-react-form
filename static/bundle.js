@@ -106,7 +106,7 @@
 					null,
 					_react2.default.createElement(
 						'form',
-						{ action: '/login', method: 'POST' },
+						{ action: '/login', method: 'POST', name: 'login_form' },
 						_react2.default.createElement(
 							'div',
 							{ className: 'login' },
@@ -128,16 +128,16 @@
 									_react2.default.createElement(
 										'div',
 										{ className: 'control-group' },
-										_react2.default.createElement('input', { type: 'text', className: 'login-field', placeholder: 'username', name: 'username' }),
+										_react2.default.createElement('input', { type: 'text', className: 'login-field', placeholder: 'username', name: 'username', id: 'username' }),
 										_react2.default.createElement('label', { className: 'login-field-icon fui-user', htmlFor: 'login-name' })
 									),
 									_react2.default.createElement(
 										'div',
 										{ className: 'control-group' },
-										_react2.default.createElement('input', { type: 'password', className: 'login-field', placeholder: 'password', name: 'password' }),
+										_react2.default.createElement('input', { type: 'password', className: 'login-field', placeholder: 'password', name: 'password', id: 'password' }),
 										_react2.default.createElement('label', { className: 'login-field-icon fui-lock', htmlFor: 'login-pass' })
 									),
-									_react2.default.createElement('input', { type: 'submit', value: 'Log in', className: 'btn btn-primary btn-large btn-block' }),
+									_react2.default.createElement('input', { type: 'submit', id: 'submit', value: 'Log in', className: 'btn btn-primary btn-large btn-block' }),
 									_react2.default.createElement('br', null)
 								)
 							)
